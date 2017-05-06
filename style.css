@@ -117,8 +117,9 @@ nav a {
  	.social i{
  		font-size: 150%;
  	}
- 	.inner-wrapper-3 table{
- 		width: 100%;
+table {
+	width: 100%
+}
  	}
  	
     }
