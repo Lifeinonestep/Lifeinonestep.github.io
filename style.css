@@ -24,7 +24,7 @@ nav a {
 .inner-wrapper {
   float: left;
   width: 100%;
-  background-color: #C3D7DF;
+  background-color: ##f1f1f1;
 }
 .inner-wrapper img {
     display: block;
@@ -44,6 +44,7 @@ nav a {
 	text-align:center;
 	vertical-align:middle
 	margin: 3px;
+	background-color: #f1f1f1;
 
 }
 .container img{
@@ -102,7 +103,7 @@ nav a {
 
 }
 /*--Mobile--*/
- @media screen and (max-width: 767px){
+ @media screen and (max-width: 600px){
  	
  	nav a {
 	color: white; 
@@ -117,7 +118,7 @@ nav a {
  	.social i{
  		font-size: 150%;
  	}
-table {
+.container img{
 	width: 100%
 }
  	}
