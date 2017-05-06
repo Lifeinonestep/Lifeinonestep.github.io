@@ -45,12 +45,13 @@ background-color: #f1f1f1;
 
 }
 .container{
-	width:100%;
+	width:8%;
 }
 .container img{
 	border-radius: 0px;
 }
 .inner-wrapper-4 {
+	width: 100%;
 	background-color: #d9d6c8;
 }
  h1 {
@@ -101,7 +102,7 @@ background-color: #f1f1f1;
 
 }
 /*--Mobile--*/
- @media screen and (max-width: 600px){
+ @media screen and (max-width: 767px){
  	
  	
  	h1 {
@@ -113,9 +114,10 @@ background-color: #f1f1f1;
  	.social i{
  		font-size: 150%;
  	}
- 	
-}
- 	
+ 	.container{
+ 		width: 7%;
+ 	}
+ 		
 }
 
  
