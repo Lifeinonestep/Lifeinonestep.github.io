@@ -102,9 +102,18 @@ background-color: #f1f1f1;
 
 }
 /*--Mobile--*/
- @media screen and (max-width: 767px){
+ @media screen and (max-width: 369px){
  	
- 	
+ 	nav {
+	width: 100%;
+	height: 50px;
+	text-decoration: none;
+	z-index: 99;
+}
+nav a {
+	margin-left: 0px;
+	line-height: 50px;
+}
  	h1 {
  		font-size: 170%;
  	}
