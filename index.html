@@ -1,96 +1,67 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-<meta charset="ut-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Portfolio</title>
-<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
-<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="uft-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<nav>
-<a href="#" id="menu-icon"></a>
-<a href=#homeSection>Home</a>
-<a href=#aboutSection>About</a>
-<a href=#portfolioSection>Portfolio</a>
-<a href=#contactSection>Contact</a>
-</nav>
-
-<div id="homeSection" class="inner-wrapper">
-<h1>Front End Web Developer</h1> <br />
-<img src="https://avatars3.githubusercontent.com/u/26098914?v=3" alt= "picture of me"/>
-<h1>Jonatan Soberanes</h1>
-<div>
-
-<div id="aboutSection" class="inner-wrapper-2">
-<h2>About</h2><br />
-<p>Hello, my name is Jonatan Soberanes. I am a Front-end develepor with experiance in HTML and CSS. Some basic information on Javascript. Experiance with JQuery & Bootstrap. Learned how to code using free-code-camp.</p>
-</div>
-
-<div id="portfolioSection" class="inner-wrapper-3">
-<h2>Portfolio</h2> <br/>
-<table class="container">
-<tr>
-<th><a href="https://sites.google.com/site/persona3pguide/" target='_blank'><img src="https://sites.google.com/site/persona3pguide/social-links/Koromaru_render.png" alt="hello"/></a>Persona 3 guide</th>
-<th><a href="http://codepen.io/JonatanS/full/qrqapZ/" target='_blank'><img src="https://ichef.bbci.co.uk/images/ic/256x256/p01bqdpx.jpg" alt="hello"/></a>Chopan</th>
-<th><img src="http://vignette2.wikia.nocookie.net/kurokonobasuke/images/d/d5/Twitter_tetsuya2_2.png/revision/latest?cb=20130202003230" alt="hello"/>dog</th>
-<th><img src="http://1389blog.com/pix/happy-cat-wallpaper-thumbnail.jpg" alt="hello"/>cat</th>
-</tr>
-
-
-<tr>
-<th>The is a guide a made to the popular Playstation game Persona 3 Portable.</th>
-
-<th>Take a look into the life of composer and pianist Frederic Chopin.</th>
-
-<th>The mobile Editor automatically creates a mobile-friendly version of your site for m many cases, some additional editing is required.</th>
-
-<th>The mobile Editor automatically creates a mobile-friendly version of your site for m many cases, some additional editing is required.</th>
-</tr>
-
-<tr>
-<th><a href="https://sites.google.com/site/persona3pguide/" target='_blank'><img src="https://sites.google.com/site/persona3pguide/social-links/Koromaru_render.png" alt="hello"/></a>Persona 3 guide</th>
-<th><a href="http://codepen.io/JonatanS/full/qrqapZ/" target='_blank'><img src="https://ichef.bbci.co.uk/images/ic/256x256/p01bqdpx.jpg" alt="hello"/></a>Chopan</th>
-<th><img src="http://vignette2.wikia.nocookie.net/kurokonobasuke/images/d/d5/Twitter_tetsuya2_2.png/revision/latest?cb=20130202003230" alt="hello"/>dog</th>
-<th><img src="http://1389blog.com/pix/happy-cat-wallpaper-thumbnail.jpg" alt="hello"/>cat</th>
-</tr>
-
-
-<tr>
-<th>The is a guide a made to the popular Playstation game Persona 3 Portable.</th>
-
-<th>Take a look into the life of composer and pianist Frederic Chopin.</th>
-
-<th>The mobile Editor automatically creates a mobile-friendly version of your site for m many cases, some additional editing is required.</th>
-
-<th>The mobile Editor automatically creates a mobile-friendly version of your site for m many cases, some additional editing is required.</th>
-</tr>
-</table>
-
-</div>
-
-<div id="contactSection" class="inner-wrapper-4"><h2> Contact Me</h2>
-   
-        <ul class="social">
-          <li><a href="https://www.linkedin.com/in/jonatan-soberanes-21b058139/" target='_blank'><i class="fa fa-linkedin"> Linkedin</i></a></li>
+	<header>
+		<div class="container">
+			<div id="logo">
+				<h1>Logo</h1>
+			</div>
+			<nav> 
+				<ul>
+					<li><a href="about">About</a></li>
+					<li><a href="portfolio">Portfolio</a></li>
+					<li><a href="contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+<!---is the home section-->
+	<section id="home">
+		<div class="container">
+			<h1>Front End Web Developer</h1>
+			<img id="face" class="small"src="https://avatars3.githubusercontent.com/u/26098914?v=3" alt="image of me">
+			<h1>Jonatan Soberanes</h1>
+		</div>
+	</section>
+<!--is the about section-->
+	<section id="about">
+		<div class="container">
+			<h2>About</h2>
+				<p>My name is Jonatan Soberanes. I have experiance with html and css. Some basic knowladge of javascript and jquery.</p>
+		</div>
+	</section>
+<!--portfolio-->
+	<section id="portfolio">
+		<div class="container">
+			<h2>Portfolio</h2>
+		</div>
+	</section>
+<!--contact-->
+	<secton id="contact">
+		<div class="container">
+			<h2>Contact</h2>
+				<ul class="social">
+          			<li><a href="https://www.linkedin.com/in/jonatan-soberanes-21b058139/" target='_blank'><i class="fa fa-linkedin"> Linkedin</i></a></li>
                              
-          <li><a href="#" target='_blank'><i class="fa fa-github-alt  "> Github</i></a></li>
+          			<li><a href="#" target='_blank'><i class="fa fa-github-alt  "> Github</i></a></li>
 
-          <li><a href="https://www.freecodecamp.com/lifeinonestep" target='_blank'><i class="fa fa-free-Code-Camp"> free-Code-Camp</i></a></li>
-          </ul>
-         
- </div>
+          			<li><a href="https://www.freecodecamp.com/lifeinonestep" target='_blank'><i class="fa fa-free-Code-Camp"> free-Code-Camp</i></a></li>
+          		</ul>
+		</div>
+	</secton>
+<!--footer-->
+	<section id="footer">
+		<div class="container">
+			 <h6>&copy; Jonatan Soberanes</h6>
+		</div>
+	</section>
 
-  <footer class="footer">
-      <p>&copy; Jonatan Soberanes</p>
-    </footer>
-<end></end>
 </body>
-
-
-
-
 </html>
