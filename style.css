@@ -3,6 +3,7 @@ body{
 	margin:0;
 	background: #f1f1f1;
 }
+
 /*global*/
 .container{
 	width:80%;
@@ -20,6 +21,7 @@ ul{
 	padding:0;
 	margin:0;
 }
+
 /*header*/
 header {
 	background:#35424a;
@@ -45,7 +47,7 @@ header li{
 header #logo {
 	float: left;
 }
-header #branding h1 {
+header #logo h1 {
 	margin:0;
 }
 header nav{
@@ -109,6 +111,9 @@ header nav{
 		float:none;
 		text-align:center;
 		width:100%;
+	}
+	header nav{
+		padding-top:10px;
 	}
 	#portfolio .box{
 		max-height:200px;
