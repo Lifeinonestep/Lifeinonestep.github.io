@@ -72,9 +72,10 @@ header nav{
 .box{
 	float:left;
 	width: 20%;
-	text-align: center;
+	text-align:center;
 	padding: 10px;
 	height: 100px;
+	
 }
 
 /*contact*/
@@ -115,6 +116,10 @@ header nav{
 	}
 	header nav{
 		padding-top:10px;
+
+	}
+	ul li{
+		padding-left:2px;
 	}
 	#portfolio .box{
 		max-height:200px;
