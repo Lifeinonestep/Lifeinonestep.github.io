@@ -66,6 +66,14 @@ header nav{
 	background:#d9d6c8;
 }
 
+/*portfolio*/
+.box{
+	float:left;
+	width: 20%;
+	text-align: center;
+	padding: 10px;
+}
+
 /*contact*/
 #contact {
 	background-color: #d9d6c8;
@@ -96,17 +104,23 @@ header nav{
 @media(max-width: 768px){
 	header #logo,
 	header nav,
-	header nav li,{
+	header nav li,
+	.box{
 		float:none;
 		text-align:center;
 		width:100%;
 	}
+	#portfolio .box{
+		max-height:200px;
 	}
+	
 	#face{
 		max-height: 200px;
 		max-width: 200px;
 	}
 	.social i {
 		font-size: 150%;
+		width: 100%
 	}
+
 }
