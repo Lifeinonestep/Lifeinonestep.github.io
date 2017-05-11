@@ -23,7 +23,7 @@ ul{
 h1{
 	text-align: center;
 	font-style: Helvetica;
-	font-size:1rem;
+	font-size:40px;
 	color: white;
 	background-color: rgba(0,0,0,.5);
 }
@@ -48,7 +48,6 @@ header{
 	background: url("images/books.jpg") no-repeat center center;
 	background-image:cover;
 	border-width:2px;
-	min-height:70px;
 	border-bottom: solid 3px gold;
 }
 
@@ -160,38 +159,53 @@ li{
 
 }
 @media only screen and (max-width: 768px){
+body{
+	background-image: none;
+	background-color: #f1f1f1;
+}
 .container{
 	width:99%;
 }
 /*Header*/
 header{
-	padding-top: 2px;
+	background-image: none;
+	background-color:#646664;
+	margin-top:0px;
+}
+header #logo,
+	header nav,
+	header nav li,
+	.box{
+		float:none;
+		text-align:center;
+		width:100%;
+	}
+header nav a{
+		padding-top:1px;
+		font-size:16px;
+
+	}
+ul li{
+		padding-left-right:2px;
 }
 h1{
-	font-size:1rem;
+	font-size:.8rem;
 }
-ul{
-	margin-top:0px;
-	margin-left:0px;
-}
-header li{
-	vertical-align:;
-	padding:1px 1px; 
-	float:none;
-	font-size:16px;
-}
+
 
 #home h1, #home p{
 	font-size: 1rem;
 }
 
 /*Books*/
-
 	article {
     	width: 100%;
   }
+  img{
+  }
   article p, article h2{
-	font-size:1em;
+	font-size:.5em;
+	letter-spacing: .05em
 }
   	aside {
     	width: 100%;
@@ -204,50 +218,4 @@ header li{
 		margin-left:0;
 	}
 }
-@media only screen and (max-width: 480px){
-	/*Header*/
-header{
-	padding-top: 0px;
-}
-h1{
-	font-size:.7rem;
-}
 
-nav li{
-	padding:1px 0px; 
-	float:left;
-	font-size:.15em;
-	width:100%;
-	text-align: center;
-	margin-bottom: 0px;
-}
-nav a{
-	display:block;
-	
-}
-
-#home h1, #home p{
-	font-size: 1rem;
-}
-
-/*Books*/
-
-	article {
-    	width: 100%;
-    	height:100%;
-  }
-  article p, article h2{
-	font-size:.5em;
-}
-  	aside {
-    	width: 100%;
-}
-	#recomended h2{
-		font-size:.5em;
-		margin:0;
-	}
-	.type{
-		margin-left:0;
-	}
-
-}
