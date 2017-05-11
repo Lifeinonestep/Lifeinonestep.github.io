@@ -19,18 +19,15 @@ ul{
 	padding:0;
 }
 
-h1, h2, p{
+h1{
 	text-align: center;
 	font-style: Helvetica;
+	font-size:1rem;
 	color: white;
 	background-color: rgba(0,0,0,.5);
 }
 
-p{
-	font-size: 20px;
-	word-spacing: .055em;
-	font-weight: 900;
-}
+
 
 h2{
 	;
@@ -48,6 +45,7 @@ h6{
 header{
 	padding-top: 30px;
 	background: url("images/books.jpg") no-repeat center center;
+	background-image:cover;
 	border-width:2px;
 	min-height:70px;
 	border-bottom: solid 3px gold;
@@ -64,14 +62,12 @@ header a:hover{
 }
 
 ul{
-	margin-left: 35%;
+	float: none;
 }
 
 header li{
-	border-top-left-radius: 50%;
-	border-top-right-radius: 50%;
 	display: inline;
-	background-color: orange;
+	background-color: gold;
 	padding: 0 20px 0 20px;
 }
 
@@ -105,6 +101,9 @@ article{
   width: 50%;
   height: auto;
 }
+article p{
+	font-size:30px;
+}
 img{
 	overflow: hidden;
   display: block;
@@ -121,6 +120,12 @@ img{
 }
 
 /*Recomend*/
+#recomended h2 {
+	margin: 0px 20%;
+	padding: 0;
+	text-align: center;
+	font-size:;
+}
 #let-me-know, .type{
 	padding:20px;
 
@@ -154,22 +159,29 @@ li{
 
 }
 @media only screen and (max-width: 768px){
+.container{
+	width:99%;
+}
 /*Header*/
 header{
-	padding-top: 10px;
+	padding-top: 2px;
+}
+h1{
+	font-size:1rem;
 }
 ul{
 	margin-top:0px;
-	margin-left:-4px;
-	font-size:10px;
+	margin-left:0px;
 }
-li{
-	float: left;
-	font-size:15px;
+header li{
+	vertical-align:;
+	padding:1px 1px; 
+	float:none;
+	font-size:16px;
 }
 
 #home h1, #home p{
-	font-size: 2rem;
+	font-size: 1rem;
 }
 
 /*Books*/
@@ -177,6 +189,17 @@ li{
 	article {
     	width: 100%;
   }
+  article p, article h2{
+	font-size:1em;
+}
   	aside {
     	width: 100%;
+}
+	#recomended h2{
+		font-size:1em;
+		margin:0;
+	}
+	.type{
+		margin-left:0;
+	}
 }
