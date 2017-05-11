@@ -9,13 +9,17 @@ body{
 	width:80%;
 	margin:auto;
 	overflow:hidden;
+
 }
 h1, h2, h6{
 	text-align: center;
 }
 p{
-	text-align: justify;
+	text-align: center;
 	text-indent: 5px;
+	font-size: 20px;
+	font-family: Helcavitia, sans-serif;
+	margin: 10px 100px;
 }
 ul{
 	padding:0;
@@ -66,8 +70,11 @@ header nav{
 /*about*/
 #about {
 	background:#d9d6c8;
-}
 
+}
+#about .container{
+	border-top: solid 2px black;
+}
 /*portfolio*/
 .box{
 	float:left;
@@ -77,6 +84,9 @@ header nav{
 	height: 100px;
 	
 }
+#portfolio .container{
+	border-top: solid 2px black;
+}
 
 /*contact*/
 #contact {
@@ -84,6 +94,16 @@ header nav{
 	display:block;
 	padding-bottom: 3px;
 
+}
+#contact .container{
+	border-top: solid 2px black;
+}
+.contact-info{
+	width:40%;
+	padding:1em;
+}
+.textbox{
+	height:auto;
 }
 .social {
 	text-align: center;
@@ -132,6 +152,9 @@ header nav{
 	.social i {
 		font-size: 150%;
 		width: 100%
+	}
+	p{
+		margin:10px 0px;
 	}
 
 }
